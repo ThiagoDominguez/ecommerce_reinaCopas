@@ -1,5 +1,7 @@
 .navbar {
   height: 5rem;
+  background-color: #3107e3;
+  color: #f2f2f2;
   .wrapper {
     padding: 1rem 2rem;
     display: flex;
@@ -15,7 +17,7 @@
     .navbar-left {
       display: flex;
       align-items: center;
-      gap: 1.5rem;
+      gap: 1rem;
     }
     .navbar-center {
       font-size: 2rem;
@@ -24,12 +26,12 @@
     .navbar-right {
       display: flex;
       align-items: center;
-      gap: 1.5rem;
+      gap: 1rem;
 
       .icons {
         display: flex;
-        gap: 1rem;
-        color: #666;
+        gap: 0.5rem;
+        color: gray;
         cursor: pointer;
 
         .cartIcon {
@@ -40,7 +42,7 @@
             width: 1.2rem;
             height: 1.2rem;
             border-radius: 50%;
-            background-color: blueviolet;
+            background-color: #8a2be2;
             color: #f2f2f2;
             position: absolute;
             right: -0.8rem;

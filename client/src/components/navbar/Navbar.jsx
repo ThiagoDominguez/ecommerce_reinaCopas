@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="navbar-left">
           <div className="item">
-            <img src="../../../public/img/arg-flag.png" />
+            <img src="/img/arg-flag.png" />
             <ArrowDropDownIcon />
           </div>
           <div className="item">
