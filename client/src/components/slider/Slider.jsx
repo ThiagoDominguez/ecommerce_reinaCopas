@@ -9,10 +9,10 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    "/img/vinos/mf-syrah.jpeg",
-    "/img/vinos/mf-syrahcabernet.jpeg",
-    "/img/vinos/mf-chardonnay.jpeg",
-    "/img/vinos/mf-bonardamalbec.jpeg",
+    "/img/slider/mf-syrah.jpeg",
+    "/img/slider/mf-syrahcabernet.jpeg",
+    "/img/slider/mf-chardonnay.jpeg",
+    "/img/slider/mf-bonardamalbec.jpeg",
   ];
 
   const prevSlide = () => {

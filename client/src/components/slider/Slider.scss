@@ -1,16 +1,16 @@
 .slider {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 5rem);
   width: 100vw;
   position: relative;
 
   .container {
     width: 400vw;
-    height: 80%;
+    height: 90%;
     display: flex;
     transition: all 1s ease;
     img {
       width: 100vw;
-      height: 90%;
+      height: 100%;
       object-fit: cover;
     }
   }
@@ -24,12 +24,18 @@
       width: 3.1rem;
       height: 3.1rem;
       border: 1px solid #999;
-      background-color: #3107e3;
+      background-color: transparent;
       color: #f2f2f2;
       display: flex;
       justify-content: center;
       align-items: center;
       cursor: pointer;
+      position: relative;
+      top: -5rem;
+      transition: all 0.5s ease;
+    }
+    .icon:hover {
+      background-color: #2f07e3c5;
     }
   }
 }
